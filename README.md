@@ -10,7 +10,7 @@
 ## 🛠️ 기술 스택
 
 ### 백엔드
-- **Python **: 프로그래밍 언어
+- **Python 3.12.7**: 프로그래밍 언어
 - **Django **: 웹 프레임워크
 - **Django REST Framework**: API 구현
 - **Celery**: 비동기 작업 처리
