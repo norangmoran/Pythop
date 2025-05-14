@@ -39,14 +39,14 @@
 
 ## 📞 연락처
 
-개발자: [모란희]  
-이메일: [ranhuy.mo@gmail.com]
+개발자: 모란희
+이메일: ranhuy.mo@gmail.com
 
 
 
 ## 🔗 출처
 
-[디자인 탬플릿 : https://startbootstrap.com/template/shop-homepage](https://startbootstrap.com/template/shop-homepage)
+디자인 탬플릿 : [https://startbootstrap.com/template/shop-homepage](https://startbootstrap.com/template/shop-homepage)
 
 
 
