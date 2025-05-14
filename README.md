@@ -4,7 +4,7 @@
 
 
 ## ✨ 주요 기능
-- **메인페이지** : 이벤트 베너 상단 노출. 등록된 상품 슬라이드 이미지 뷰 제공.
+- **메인페이지**: 이벤트 베너 상단 노출. 등록된 상품 슬라이드 이미지 뷰 제공.
 
 
 
@@ -40,13 +40,14 @@
 ## 📞 연락처
 
 개발자: 모란희
+
 이메일: ranhuy.mo@gmail.com
 
 
 
 ## 🔗 출처
 
-디자인 탬플릿 : [https://startbootstrap.com/template/shop-homepage](https://startbootstrap.com/template/shop-homepage)
+디자인 탬플릿: [https://startbootstrap.com/template/shop-homepage](https://startbootstrap.com/template/shop-homepage)
 
 
 
