@@ -6,7 +6,15 @@
     <title>Blog</title>
 </head>
 <body>
-    <h1>Blog</h1>
+    <h1 style="margin-bottom: 50px;">Blog</h1>
+
+{% for p in DATA %}
+    <h3>{{ p }}</h3>
+    <h2>{{ p.title }}</h2>
+    <h4>{{ p.updated_at }} / {{ p.created_at }}</h4>
+    <p>{{ p.content }}</p>
+    <hr/>
+{% endfor %}
 
 </body>
 </html>
