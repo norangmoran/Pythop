@@ -12,3 +12,13 @@ def index(request):
         {
             'DATA' : data_Post,
         })
+
+def single_post_page(request, pk):
+    data = Post.objects.get(pk=pk)
+
+    return render(
+        request,
+        'blog/single_post_page.html',
+        {
+            'DATA' : data
+        })
