@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>{{ DATA.title }} - Blog</title>
 </head>
 <body>
-<nav>
-    <a href="/blog/">Blog</a>
-</nav>
+    <nav>
+        <a href="/blog/">Blog</a>
+    </nav>
+
+    <h1>{{ DATA.title }}</h1>
+    <h4>{{ DATA.updated_at }} / {{ DATA.created_at }}</h4>
+    <p>{{ DATA.content }}</p>
+    <hr/>
+
+    <h3>댓글</h3>
 </body>
 </html>
