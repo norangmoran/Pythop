@@ -11,5 +11,5 @@ class Post(models.Model):
         return (f'[ {self.pk} '
                 f'] {self.title}')
 
-    def single_url_str(self):
+    def urlStr__single_post_page(self):
         return f'/blog/{self.pk}'
