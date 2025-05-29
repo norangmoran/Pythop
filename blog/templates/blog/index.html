@@ -10,7 +10,7 @@
 
 {% for p in DATA %}
     <h3>{{ p }}</h3>
-    <a href="./{{ p.pk }}"><h2>{{ p.title }}</h2></a>
+    <a href="{{ p.single_url_str }}"><h2>{{ p.title }}</h2></a>
     <h4>{{ p.updated_at }} / {{ p.created_at }}</h4>
     <p>{{ p.content }}</p>
     <hr/>
