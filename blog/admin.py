@@ -12,7 +12,7 @@ class PostAdmin(admin.ModelAdmin):
         return f"[{obj.pk}] {obj.title}"
 
     custom_title.short_description = "목차"
-    Post._meta.get_field("updated_at").verbose_name = "수정일"
-    Post._meta.get_field("created_at").verbose_name = "등록일"
+    Post._meta.get_field('updated_at').verbose_name = "수정일"
+    Post._meta.get_field('created_at').verbose_name = "등록일"
 
 admin.site.register(Post, PostAdmin)
