@@ -8,7 +8,7 @@
 <body>
     <h1 style="margin-bottom: 50px;">Blog</h1>
 
-{% for p in DATA %}
+{% for p in object_list %}
     <h3>{{ p }}</h3>
     <a href="{{ p.urlStr__single_post_page }}"><h2>{{ p.title }}</h2></a>
     <h4>{{ p.updated_at }} / {{ p.created_at }}</h4>
