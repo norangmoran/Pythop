@@ -4,7 +4,7 @@ from .models import Post
 
 class PostList(ListView):
     model = Post
-    template_name = 'blog/index.html'
+    ordering = '-pk'
 
 # def index(request):
 #     data_Post = Post.objects.all().order_by('-pk')
