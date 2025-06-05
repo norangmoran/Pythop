@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 from .models import Post
 
 class PostList(ListView):
@@ -15,13 +15,16 @@ class PostList(ListView):
 #         {
 #             'DATA' : data_Post,
 #         })
-#
-def single_post_page(request, pk):
-    data = Post.objects.get(pk=pk)
 
-    return render(
-        request,
-        'blog/single_post_page.html',
-        {
-            'DATA' : data
-        })
+class PostDetail(DetailView):
+    model = Post
+
+# def single_post_page(request, pk):
+#     data = Post.objects.get(pk=pk)
+#
+#     return render(
+#         request,
+#         'blog/single_post_page.html',
+#         {
+#             'DATA' : data
+#         })
